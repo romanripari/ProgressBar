@@ -14,7 +14,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub CancelButton_Click()
-    BarraDeProgreso.Cancelar
+    ProgressBarModule.CancelarProgress
 End Sub
 
 Private Sub UserForm_Initialize()
